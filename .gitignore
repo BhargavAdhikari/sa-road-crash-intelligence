@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Raw data - downloaded source files stay local
+data/raw/*
+
+# Keep the raw-data folder itself in Git
+!data/raw/.gitkeep
+
+# QGIS temporary/backup files
+*.qgz~
+*.qgs~
